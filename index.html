@@ -12,20 +12,23 @@
 
     <main>
         <section>
-            <input type="number" name="price" class="" placeholder="Qual o valor da conta??" />
-            <form>
-                <input type="radio" id="html" name="fav_language" value="HTML" />
-                <label for="html">10</label><br />
-                <input type="radio" id="css" name="fav_language" value="CSS" />
-                <label for="css">15</label><br />
-                <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
-                <label for="javascript">20</label>
+            <input type="number" name="price" class="total-price" placeholder="Qual o valor da conta??" />
+            <button type="button" class="imprimir">imprimir</button>
+            <form class="tip">
+                <button type="button" value="1" class="value-tip tip0" onclick="catchTip()">0</button>
+                <button type="button" value="10" class="value-tip tip1" onclick="catchTip()">10%</button>
+                <button type="button" value="15" class="value-tip tip2" onclick="catchTip()">15%</button>
+                <button type="button" value="20" class="value-tip tip3" onclick="catchTip()">20%</button>
             </form>
-            <input type="number" name="people" class="" placeholder="Quantas pessoas irão pagar" />
+            <input type="number" name="people" class="people" placeholder="Quantas pessoas irão pagar" />
+
+            <p id="demo"></p>
         </section>
     </main>
 
     <footer></footer>
+
+    <script src="assets/js/calc-price.js"></script>
 </body>
 
 </html>
