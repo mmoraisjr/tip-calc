@@ -15,22 +15,20 @@ const imprimir = () => {
   people = inputPeople.value;
   console.log(price);
   console.log(people);
-  console.log(tip);
-  console.log(inputTip.value);
-  console.log(inputTip);
 };
 
-for(let i = 0; i < inputTip.length; i++){
-        function catchTip() {
-        var x = document.querySelector(`.tip${i}`).value;
-        console.log(x);
-        document.getElementById("demo").innerHTML = x;
-    }
+for (let i = 0; i < inputTip.length; i++) {
+  const btn = inputTip[i];
+  const obtemClass = btn.classList[1];
+  const btnValue1 = obtemClass;
+  const btnValue2 = btn.value;
+//   var x = document.querySelector(`.tip${i}`).value;
+//   console.log(x);
+console.log(btn);
+console.log(obtemClass);
+console.log(btnValue1);
+console.log(btnValue2);
+btn.onClick = function () {
+    console.log(btnValue2);
+  }
 }
-
-btnTip.addEventListener("click", () => valueTip());
-
-const valueTip = () => {
-  tip = inputTip.value;
-  console.log(tip);
-};
