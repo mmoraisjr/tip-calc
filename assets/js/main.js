@@ -21,11 +21,12 @@ const inputs = () => {
 };
 
 function calcTip(price, people, tip) {
-  total = parseInt(price) + ((parseInt(price) * parseInt(tip)) / 100);
+  total = parseInt(price) + (parseInt(price) * parseInt(tip)) / 100;
   totalPerPerson = parseInt(total) / parseInt(people);
-  console.log("Valor: " + price);
-  console.log("Porcentagem de gorjeta: " + tip + "%");
-  console.log("Valor Total: " + total);
-  console.log("Valor Total por Pessoa: " + totalPerPerson);
-  
+  exibe.innerHTML =
+    "Valor: " + price +
+    "<br>Porcentagem de gorjeta: " + tip + "%" +
+    "<br>Pessoas na mesa: " + people +
+    "<br>Valor Total: " + total +
+    "<br>Valor Total por Pessoa: " + totalPerPerson;
 }
