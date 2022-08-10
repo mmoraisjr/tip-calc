@@ -1,17 +1,18 @@
 :root {
-    --azul: #cbe4ea;
+    --azul: #abdfec;
     --rosa: #ead1cb;
     --branco: #dce0e6;
     --cinza: #657275;
     --marrom: #af9c98;
     --verde: #0e8d94;
+    --verde2: #16ac7a;
     --preto: #1f1f20;
 
     --fonte: 'Nunito', sans-serif;
 }
 
 body {
-    background-color: var(--cinza);
+    background-image: linear-gradient(to bottom right, var(--verde), rgb(146, 83, 172));
     display: flex;
     flex-direction: column;
     font-family: var(--fonte);

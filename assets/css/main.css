@@ -2,28 +2,75 @@
 @import url(_style.css);
 
 input {
-    padding: .5rem;
-    width: 13rem;
+    border: var(--cinza) solid 2px;
+    border-radius: 8px;
+    height: 2rem;
+    padding: 0 1rem;
+    width: 95%;
+}
+
+input::placeholder{
+    text-align: center;
 }
 
 main {
     background-color: var(--azul);
+    border: white  solid  2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+    margin: 0 auto;
+    width: 350px;
+}
+
+main p {
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 2.5rem 0;
+    text-align: center;
+    text-shadow: .1rem .1rem #333;
 }
 
 .buttons {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .calc {
+    border: var(--cinza) solid 2px;
+    border-radius: 5px;
     padding: .75rem 1.5rem;
     margin: .5rem;
+    width: 95%;
+}
+
+.calc:hover {
+    background: var(--verde2);
+    color: aliceblue;
+    cursor: pointer;
 }
 
 .inputs {
-    /* background-color: var(--amarelo2); */
+    display: flex;
+    justify-content: center;
 }
+
+
 .tip {
+    border: var(--cinza) solid 2px;
+    border-radius: 5px;
+    cursor: pointer;
     margin: .5rem;
     padding: .75rem 1.5rem;
+    width: 150px;
+}
+
+.tip:hover {
+    background: var(--verde2);
+    color: aliceblue;
 }

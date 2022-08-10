@@ -1,2 +1,6 @@
 @import url(_reset.css);
 @import url(_style.css);
+
+header {
+    height: 100px;
+}
