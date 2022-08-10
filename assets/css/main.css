@@ -11,6 +11,7 @@ input {
 
 input::placeholder{
     text-align: center;
+    font-family: var(--fonte);
 }
 
 main {
@@ -69,9 +70,16 @@ main p {
     border: var(--cinza) solid 2px;
     border-radius: 5px;
     cursor: pointer;
+    font-family: var(--fonte);
     margin: .5rem;
     padding: .75rem 1.5rem;
     width: 150px;
+}
+
+.selected {
+    background: var(--verde2);
+    border: white solid 2px;
+    color: aliceblue;
 }
 
 .tip:hover {

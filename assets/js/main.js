@@ -13,6 +13,8 @@ var totalPerPerson;
 inputTip.forEach((elemento) => {
   elemento.addEventListener("click", (e) => {
     tip = e.target.value;
+    e.target.classList.add("selected");
+    console.log(e.target.value);
   });
 });
 
