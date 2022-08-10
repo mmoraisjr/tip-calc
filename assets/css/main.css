@@ -44,6 +44,9 @@ main p {
 .calc {
     border: var(--cinza) solid 2px;
     border-radius: 5px;
+    color: var(--verde2);
+    font-size: 1.25rem;
+    font-weight: bold;
     padding: .75rem 1.5rem;
     margin: .5rem;
     width: 95%;
@@ -51,6 +54,7 @@ main p {
 
 .calc:hover {
     background: var(--verde2);
+    border: white solid 2px;
     color: aliceblue;
     cursor: pointer;
 }
@@ -72,5 +76,6 @@ main p {
 
 .tip:hover {
     background: var(--verde2);
+    border: white solid 2px;
     color: aliceblue;
 }
