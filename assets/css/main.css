@@ -1,0 +1,29 @@
+@import url(_reset.css);
+@import url(_style.css);
+
+input {
+    padding: .5rem;
+    width: 13rem;
+}
+
+main {
+    background-color: var(--amarelo2);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.calc {
+    padding: .75rem 1.5rem;
+    margin: .5rem;
+}
+
+.inputs {
+    /* background-color: var(--amarelo2); */
+}
+.tip {
+    margin: .5rem;
+    padding: .75rem 1.5rem;
+}

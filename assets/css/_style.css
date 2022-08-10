@@ -1,17 +1,17 @@
 :root {
-    --azul1: #2b4c7e;
-    --azul2: #567ebb;
+    --amarelo1: #ffab07;
+    --amarelo2: #e9d558;
     --branco: #dce0e6;
-    --cinza: #606d80;
+    --cinza: #434d53;
+    --verde1: #72ad75;
+    --verde2: #0e8d94;
     --preto: #1f1f20;
-    --verde: #2eb8ac;
-    --vermelho: #99173c;
 
-    --fonte: 'Raleway', sans-serif;
+    --fonte: 'Nunito', sans-serif;
 }
 
 body {
-    background-color: var(--azul1);
+    background-color: var(--verde1);
     display: flex;
     flex-direction: column;
     font-family: var(--fonte);
