@@ -14,8 +14,8 @@ var totalPerPerson;
 inputTip.forEach((elemento) => {
   elemento.addEventListener("click", (e) => {
     tip = e.target.value;
-    e.target.classList.add("selected");
-    console.log(e.target.value);
+    e.target.classList.toggle("selected");
+    e.target.classList.toggle("tip");
   });
 });
 
@@ -28,8 +28,8 @@ const inputs = () => {
 
   calcTip(price, people, tip);
 
-  showTotal.innerHTML = total;
-  showTotalPerPerson.innerHTML = totalPerPerson;
+  showTotal.innerHTML = total.toFixed(2);
+  showTotalPerPerson.innerHTML = totalPerPerson.toFixed(2);
 };
 
 function calcTip(price, people, tip) {

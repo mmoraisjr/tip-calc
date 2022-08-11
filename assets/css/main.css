@@ -86,6 +86,13 @@ main p {
 .selected {
     background: var(--verde2);
     color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--fonte);
+    font-size: 1.25rem;
+    margin: .5rem;
+    padding: .75rem 1.5rem;
+    width: 150px;
 }
 
 .tip {
