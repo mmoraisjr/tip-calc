@@ -1,7 +1,8 @@
 const inputPrice = document.querySelector(".total-price");
 const inputPeople = document.querySelector(".people");
 const btn = document.querySelector(".calc");
-const exibe = document.querySelector("#demo");
+const showTotal = document.querySelector(".total");
+const showTotalPerPerson = document.querySelector(".total-per-person");
 const inputTip = document.querySelectorAll(".tip");
 
 var price;
@@ -27,18 +28,8 @@ const inputs = () => {
 
   calcTip(price, people, tip);
 
-  exibe.innerHTML =
-    "Valor: " +
-    price +
-    "<br>Porcentagem de gorjeta: " +
-    tip +
-    "%" +
-    "<br>Pessoas na mesa: " +
-    people +
-    "<br>Valor Total: " +
-    total +
-    "<br>Valor Total por Pessoa: " +
-    totalPerPerson;
+  showTotal.innerHTML = total;
+  showTotalPerPerson.innerHTML = totalPerPerson;
 };
 
 function calcTip(price, people, tip) {

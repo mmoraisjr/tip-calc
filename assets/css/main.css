@@ -2,9 +2,8 @@
 @import url(_style.css);
 
 input {
-    border: var(--cinza) solid 2px;
     border-radius: 8px;
-    height: 2rem;
+    height: 2.5rem;
     padding: 0 1rem;
     width: 95%;
 }
@@ -12,27 +11,32 @@ input {
 input::placeholder{
     text-align: center;
     font-family: var(--fonte);
+    font-size: 1.1rem;
+}
+
+label {
+    font-size: 1.5rem;
 }
 
 main {
     background-color: var(--azul);
-    border: white  solid  2px;
-    border-radius: 10px;
+    box-shadow: 5px 5px 1em black;;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     height: 100%;
+    justify-content: space-evenly;
     margin: 0 auto;
     width: 350px;
 }
 
 main p {
-    color: whitesmoke;
+    color: var(--cinza);
     font-size: 2rem;
     font-weight: 700;
-    margin: 2.5rem 0;
+    margin: 1.5rem 0;
     text-align: center;
-    text-shadow: .1rem .1rem #333;
 }
 
 .buttons {
@@ -43,11 +47,10 @@ main p {
 }
 
 .calc {
-    border: var(--cinza) solid 2px;
     border-radius: 5px;
     color: var(--verde2);
-    font-size: 1.25rem;
-    font-weight: bold;
+    font-family: var(--fonte);
+    font-size: 1.5rem;
     padding: .75rem 1.5rem;
     margin: .5rem;
     width: 95%;
@@ -55,7 +58,6 @@ main p {
 
 .calc:hover {
     background: var(--verde2);
-    border: white solid 2px;
     color: aliceblue;
     cursor: pointer;
 }
@@ -65,25 +67,40 @@ main p {
     justify-content: center;
 }
 
+.result {
+    align-items: center;
+    background: var(--verde2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: .75rem;
+}
+
+.result p {
+    background: white;
+    border-radius: 5px;
+    margin: 0 0 1rem;
+    width: 95%;
+}
+
+.selected {
+    background: var(--verde2);
+    color: aliceblue;
+}
 
 .tip {
-    border: var(--cinza) solid 2px;
     border-radius: 5px;
+    color: var(--verde2);
     cursor: pointer;
     font-family: var(--fonte);
+    font-size: 1.25rem;
     margin: .5rem;
     padding: .75rem 1.5rem;
     width: 150px;
 }
 
-.selected {
-    background: var(--verde2);
-    border: white solid 2px;
-    color: aliceblue;
-}
 
 .tip:hover {
     background: var(--verde2);
-    border: white solid 2px;
     color: aliceblue;
 }

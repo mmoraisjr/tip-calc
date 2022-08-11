@@ -3,4 +3,13 @@
 
 header {
     height: 100px;
+    text-align: center;
+}
+
+header p{
+    color: var(--azul);
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 2.5rem 0;
 }

@@ -1,5 +1,6 @@
 :root {
     --azul: #abdfec;
+    --azul2: #0e6e94;
     --rosa: #ead1cb;
     --branco: #dce0e6;
     --cinza: #657275;
@@ -12,7 +13,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom right, var(--verde), rgb(146, 83, 172));
+    background-image: linear-gradient(to bottom right, var(--verde), white);
     display: flex;
     flex-direction: column;
     font-family: var(--fonte);
