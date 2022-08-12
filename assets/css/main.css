@@ -9,9 +9,10 @@ input {
 }
 
 input::placeholder{
-    text-align: center;
     font-family: var(--fonte);
     font-size: 1.1rem;
+    opacity: 50%;
+    text-align: center;
 }
 
 label {
