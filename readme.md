@@ -1,8 +1,8 @@
 # Racha a conta
 
-Pensando em uma situação corriqueira, que muita gente pode ter vivenciado, o projeto vem para trazer uma solução bem prática: dividir a conta igualmente com os ocupantes da mesa.
-Nada de ficar pegando calculadora do seu celular e ficar somando e divindo os valores, pois essa ferramenta faz de forma prática todo o trabalho.
-O projeto foi diretamente inspirado no seguinte desafio do Frontend Mentor: https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX
+  Pensando em uma situação corriqueira, que muita gente pode ter vivenciado, o projeto vem para trazer uma solução bem prática: dividir a conta igualmente com os ocupantes da mesa.
+  Nada de ficar pegando calculadora do seu celular e ficar somando e divindo os valores, pois essa ferramenta faz de forma prática todo o trabalho.
+  O projeto foi diretamente inspirado no seguinte desafio do Frontend Mentor: https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX
 
 ![Imagem inicial da ferramenta](/assets/img/1.png)
 
