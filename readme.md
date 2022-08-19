@@ -1,7 +1,8 @@
 # Racha a conta
 
-Pensando em uma situação corriqueira, que muita gente pode ter vivenciado, o projeto vem para trazer uma solução bem prática: dividir a conta igualmente com os ocupantes da mesa.
-Nada de ficar pegando calculadora do seu celular e ficar somando e divindo os valores, pois essa ferramenta faz de forma prática todo o trabalho.
+    Pensando em uma situação corriqueira, que muita gente pode ter vivenciado, o projeto vem para trazer uma solução bem prática: dividir a conta igualmente com os ocupantes da mesa.
+    Nada de ficar pegando calculadora do seu celular e ficar somando e divindo os valores, pois essa ferramenta faz de forma prática todo o trabalho.
+    O projeto foi diretamente inspirado no seguinte desafio do Frontend Mentor: https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX
 
 ![Imagem inicial da ferramenta](/assets/img/1.png)
 
@@ -22,10 +23,10 @@ Nada de ficar pegando calculadora do seu celular e ficar somando e divindo os va
 
 - Na prática, o projeto ja funciona e resolve aquilo ao qual ele foi proposto. Porém, há alguns cenários que podem ocorrer, ao qual a ferramenta não irá se comportar de uma maneira esperada. 
 Alguns exemplos seriam: 
-*a possibilidade de não querer pagar a taxa de serviço; 
-*a seleção do botão de taxa está se comportando de uma forma que é possível selecionar duas opções; 
+* A possibilidade de não querer pagar a taxa de serviço; 
+* A seleção do botão de taxa está se comportando de uma forma que é possível selecionar duas opções; 
 
-Mas são situações que já foram notadas e irão ser resolvidas em uma proxima atualização. 
+Essas situações que já foram notadas e irão ser resolvidas em uma proxima atualização. 
 
 #### Etapas do projeto
 - [x] DEFINIR PALETA DE CORES;
