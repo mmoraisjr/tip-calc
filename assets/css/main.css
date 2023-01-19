@@ -47,7 +47,7 @@ main p {
     justify-content: space-evenly;
 }
 
-.calc {
+.calc{
     border-radius: 5px;
     color: var(--verde2);
     font-family: var(--fonte);
@@ -59,6 +59,22 @@ main p {
 
 .calc:hover {
     background: var(--verde2);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.limpar{
+    border-radius: 5px;
+    color: var(--vermelho);
+    font-family: var(--fonte);
+    font-size: 1.5rem;
+    padding: .75rem 1.5rem;
+    margin: .5rem;
+    width: 95%;
+}
+
+.limpar:hover {
+    background: var(--vermelho);
     color: aliceblue;
     cursor: pointer;
 }
@@ -109,6 +125,15 @@ main p {
 
 
 .tip:hover {
+    /* background: var(--verde2);
+    color: aliceblue; */
     background: var(--verde2);
     color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--fonte);
+    font-size: 1.25rem;
+    margin: .5rem;
+    padding: .75rem 1.5rem;
+    width: 150px;
 }
